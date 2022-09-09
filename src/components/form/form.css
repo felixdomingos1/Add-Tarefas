@@ -1,0 +1,42 @@
+.FormContainer{
+    max-width: 1120px;
+    margin: 20px auto;
+    width: 98%;
+    background: #fff;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    gap: 10px;
+}
+.InputContent{
+    display: flex;
+    flex-direction: column;
+}
+.Input{
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+.RadioGroup{
+    display: flex;
+    align-items: center;
+}
+.RadioGroup  input{
+    margin-left: 20px;
+    accent-color: black;
+    margin-top: 0;
+}
+.buttonform{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: teal;
+}
